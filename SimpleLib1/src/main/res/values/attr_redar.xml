@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RedarView">
+        <!--<attr name="radius" format="dimension" />-->
+        <!--<attr name="startAngle" format="integer|reference" />-->
+        <attr name="level" format="integer" />
+        <attr name="result_color" format="color" />
+        <attr name="web_color" format="color" />
+        <attr name="web_width" format="dimension" />
+        <attr name="field_color1" format="color" />
+        <attr name="field_color2" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <!--left@djl@bottom@djl@right@djl@top-->
+        <attr name="text" format="string" />
+        <!--l-b-r-t-color-drawable-drawableSize,l-b-r-t-color-drawable-drawableSize-->
+        <attr name="datas" format="string" />
+        <attr name="drawable" format="reference" />
+        <attr name="useSurface" format="boolean" />
+    </declare-styleable>
+</resources>

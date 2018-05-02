@@ -1,0 +1,6 @@
+include ':app', ':SimpleLib1', ':PullRefreshLibs', ':lfilepickerlibrary'
+//, ':lfilepickerlibrary'
+//project(':SimpleLib1').projectDir = new File('../a_libs/SimpleLib1')
+//project(':PullRefreshLibs').projectDir = new File('../a_libs/PullRefreshLibs')
+//project(':lfilepickerlibrary').projectDir = new File('LFilePicker-master/lfilepickerlibrary')
+project(':lfilepickerlibrary').projectDir = new File('LFilePicker-master/lfilepickerlibrary')

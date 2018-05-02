@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etPWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入加密密码(任意长度,任意内容(小说都行),只要你能记住)"
+        android:lines="10" />
+
+</LinearLayout>

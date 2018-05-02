@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.com.yw56.pda.Main2Activity">
+    <item
+        android:id="@+id/menu_default_pwd"
+        android:orderInCategory="100"
+        android:title="设置默认密码"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="101"
+        android:title="设置"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_alarm"
+        android:orderInCategory="102"
+        android:title="闹铃"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="103"
+        android:title="关于"
+        app:showAsAction="ifRoom" />
+</menu>

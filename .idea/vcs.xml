@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/LFilePicker-master/lfilepickerlibrary" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/PullRefreshLibs" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/SimpleLib1" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../a_libs/SimpleLib1" vcs="svn" />
+  </component>
+</project>

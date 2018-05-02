@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.djl.forgetpwd.AboutActivity">
+
+    <ImageView
+        android:id="@+id/ivMoney"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/money"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/activity_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgGrey"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="当前版本 1.0.0"
+            android:textColor="@color/b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="本版本为基础版,关于后续版本,如果各位有什么宝贵的建议欢迎联系"
+            android:textColor="@color/b" />
+
+        <LinearLayout
+            android:id="@+id/llWelcome"
+            style="@style/setting_item"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="欢迎页"
+                    android:textColor="@color/b"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/akd" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEmail"
+            style="@style/setting_item"
+            android:layout_marginTop="1dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者邮箱 :   "
+                android:textColor="@color/b"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="duanjinlei666@foxmail.com"
+                android:textColor="#1e88d4"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llqq"
+            style="@style/setting_item"
+            android:layout_marginTop="1dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者QQ号 :   "
+                android:textColor="@color/b"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvQQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="414634675"
+                android:textColor="#1e88d4"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lldashang"
+            style="@style/setting_item"
+            android:layout_marginTop="1dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打赏"
+                android:textColor="@color/b"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:id="@+id/llEmail"-->
+        <!--style="@style/setting_item"-->
+        <!--android:layout_marginTop="1dp">-->
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="贴吧地址 :   "-->
+        <!--android:textColor="@color/b"-->
+        <!--android:textSize="16sp" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="1554068430@qq.com"-->
+        <!--android:textColor="#1e88d4"-->
+        <!--android:textSize="16sp" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+</RelativeLayout>

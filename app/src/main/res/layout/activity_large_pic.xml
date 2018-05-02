@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_large_pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.djl.forgetpwd.LargePicActivity">
+
+
+    <com.djl.forgetpwd.view.PWDView
+        android:id="@+id/PWDView"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        android:background="#fdc668" />
+
+    <LinearLayout
+        android:id="@+id/llSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="请输入保存文件的名字"
+            android:lines="1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btSave"
+            style="@style/button_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="保存图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llShowContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<EditText-->
+        <!--android:id="@+id/etPWD"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:hint="请输入加密和解密以上秘密的密码(字数不限,只要你能保证下次能输对)"-->
+        <!--android:lines="3"-->
+        <!--android:text="" />-->
+
+        <Button
+            android:id="@+id/btShowContent"
+            style="@style/button_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:text="显示上图的秘密" />
+    </LinearLayout>
+</LinearLayout>

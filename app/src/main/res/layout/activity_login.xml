@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.djl.forgetpwd.LoginActivity">
+
+    <EditText
+        android:id="@+id/etPWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入加密密码(任意长度,任意内容(小说都行),只要你能记住)"
+        android:lines="10" />
+
+    <Button
+        android:id="@+id/btPWDSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="设为默认加密密码" />
+
+    <Button
+        android:id="@+id/btToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="先跳过" />
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="测试" />
+</LinearLayout>

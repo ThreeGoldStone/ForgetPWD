@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.djl.forgetpwd">
+
+    <application
+        android:name=".simple_successor.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:launchMode="singleTask" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewPWDActivity"
+            android:label="编辑秘密" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="关于" />
+        <activity
+            android:name=".LargePicActivity"
+            android:label="秘密图片" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="设置" />
+        <activity
+            android:name=".ALarmManagerActivity"
+            android:label="闹铃" />
+
+        <receiver
+            android:name=".util.OneShotAlarm"
+            android:process=":remote" />
+
+        <activity
+            android:name=".NewPWDActivity3"
+            android:label="编辑秘密">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".NewPWDEditActivity"></activity>
+        <activity
+            android:name=".NewPWDDetailActivity3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustPan"></activity>
+        <activity
+            android:name=".NewPWDConfigActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>
